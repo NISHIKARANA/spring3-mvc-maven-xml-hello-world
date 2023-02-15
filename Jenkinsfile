@@ -21,9 +21,9 @@ pipeline {
             steps {
                 script {
                     // Let's clone the source
-                    git 'https://github.com/NISHIKARANA/spring3-mvc-maven-xml-hello-world.git';
+                    git url: 'https://github.com/NISHIKARANA/spring3-mvc-maven-xml-hello-world.git';
                 }
-            }
+            } 
         }
         stage("mvn build") {
             steps {
