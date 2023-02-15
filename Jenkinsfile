@@ -14,9 +14,9 @@ pipeline {
         // Where your Nexus is running
         NEXUS_URL = "localhost:8081"
         // Repository where we will upload the artifact
-        NEXUS_REPOSITORY = "dvs-evn-spring"
+        NEXUS_REPOSITORY = "maven-repo"
         // Jenkins credential id to authenticate to Nexus OSS
-        NEXUS_CREDENTIAL_ID = "nexus_credentials"
+        NEXUS_CREDENTIAL_ID = "Nexus_Jen"
     }
     stages {
         stage("clone code") {
